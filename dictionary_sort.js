@@ -10,7 +10,7 @@ function dictionarySort(array) {
             }
         }
     }
-    return array
+    return array.join(', ')
 }
 
 console.log(dictionarySort(['makan','duduk','tidur','terbang'])) // duduk,makan,terbang,tidur
